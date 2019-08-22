@@ -6,6 +6,12 @@ import javax.persistence.Embeddable;
 
 @Embeddable
 public class AgenciaCodigoDigitoVerificador implements Serializable {
+	
+	/**
+	 * Serial Version UID
+	 */
+	private static final long serialVersionUID = 1196631659091872007L;
+	
 	public int cdAgencia;
 	public short cdDigitoVerificador;
 
