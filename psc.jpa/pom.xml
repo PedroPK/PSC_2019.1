@@ -7,12 +7,18 @@
 	<artifactId>psc.jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
 		<dependency>
-			<groupId>org.hibernate</groupId>
+			<groupId>org.hibernate.orm</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>5.6.15.Final</version>
+			<version>6.4.4.Final</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
@@ -23,13 +29,14 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
-			<groupId>javax.xml.bind</groupId>
-			<artifactId>jaxb-api</artifactId>
-			<version>2.3.1</version>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -37,10 +44,10 @@
 			<version>1.7.36</version>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-reload4j -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
+			<artifactId>slf4j-reload4j</artifactId>
 			<version>1.7.36</version>
 			<scope>test</scope>
 		</dependency>
