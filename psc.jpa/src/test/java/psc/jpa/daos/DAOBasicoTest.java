@@ -5,8 +5,8 @@ import static org.junit.Assert.*;
 import java.util.Iterator;
 import java.util.Set;
 
-import javax.persistence.Entity;
-import javax.persistence.metamodel.EntityType;
+import jakarta.persistence.Entity;
+import jakarta.persistence.metamodel.EntityType;
 
 import org.junit.Test;
 
